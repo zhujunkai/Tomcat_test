@@ -9,13 +9,20 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
- <servlet>
+  <servlet>
     <servlet-name>ServletDemo1</servlet-name>
     <servlet-class>servlet_test.ServletDemo1</servlet-class>
+  </servlet>
+   <servlet>
+    <servlet-name>GPS</servlet-name>
+    <servlet-class>my_gps.GPS</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServletDemo1</servlet-name>
     <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GPS</servlet-name>
+    <url-pattern>/gps</url-pattern>
   </servlet-mapping>
 </web-app>
