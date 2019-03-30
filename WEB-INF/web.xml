@@ -13,7 +13,7 @@
     <servlet-name>ServletDemo1</servlet-name>
     <servlet-class>servlet_test.ServletDemo1</servlet-class>
   </servlet>
-   <servlet>
+  <servlet>
     <servlet-name>GPS</servlet-name>
     <servlet-class>my_gps.GPS</servlet-class>
   </servlet>
