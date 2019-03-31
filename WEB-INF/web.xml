@@ -17,9 +17,17 @@
     <servlet-name>GPS</servlet-name>
     <servlet-class>my_gps.GPS</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>GPSALL</servlet-name>
+    <servlet-class>my_gps.GPSALL</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>ServletDemo1</servlet-name>
     <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GPSALL</servlet-name>
+    <url-pattern>/gpsall</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>GPS</servlet-name>
