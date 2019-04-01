@@ -18,6 +18,10 @@
     <servlet-class>my_gps.GPS</servlet-class>
   </servlet>
   <servlet>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>upload.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
     <servlet-name>GPSALL</servlet-name>
     <servlet-class>my_gps.GPSALL</servlet-class>
   </servlet>
@@ -32,5 +36,9 @@
   <servlet-mapping>
     <servlet-name>GPS</servlet-name>
     <url-pattern>/gps</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/uploadServlet</url-pattern>
   </servlet-mapping>
 </web-app>
